@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+/* #17153B #2E236C #433D8B #C8ACD6 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #17153B;
+    color: #7FA1C3;
+    background-image: url(_36b0d728-9832-4586-99bc-1a24f6add56b.jpg);
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-around;
+    margin: 10px 10px;
+
+}
+header h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+
+}
+
+.container{
+    background-color: #7FA1C3;
+    opacity: 80%;
+    color: #17153B;
+    margin: 15%;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #17153B;
+}
+.container p{
+    text-align: center;
+    font-weight: 500;
+    padding: 0 50px;
+    color: #2E236C;
+}
+
+.container .mid{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.container button{
+    position: relative;
+    font-size: 110%;
+    left: 10px;
+    width: 90px;
+    height: 30px;
+    background-color: #2E236C;
+    color: #C8ACD6;
+    border-radius: 15px 15px;
+    border: none;
+    cursor: pointer;
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+footer{
+    margin-top: 0%;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: #fff;
+}
+
+

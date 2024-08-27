@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Master</title>
+    <link rel="icon" href="memo.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Your Tasks</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h1>To-Do Master</h1>
+    <input id="task" placeholder="crete task"> <button onclick="add()">Add</button>
+    <ul id="list">
+        <li id="temp">Your task shows here</li>  
+    </ul>
+
+    <script>
+        var task=document.querySelector("#task")
+        var list=document.querySelector("#list")
+        var temp=document.getElementById("temp")
+
+        function add(){
+            newList=document.createElement("li")
+            newList.innerHTML=task.value + "<button onclick=\"del(event)\">delete</button>"
+            temp.remove()
+            list.append(newList)
+
+        }
+
+        function del(event){
+            event.target.parentElement.remove();
+
+        }
+    </script>
+</body>
+</html>
